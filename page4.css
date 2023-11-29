@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:rgb(48, 42, 42); 
+    display: flex;
+    justify-content: center;
+
+}
+#BossElement{
+    height: 700px;
+    width: 1300px;
+    background-image: url("realimage2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+
+#parent{
+    /* border: 1px solid red; */
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+#backbutton{
+    height: 70px;
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 8px;
+    background-image: url(Screenshot\ 2023-11-23\ 172938.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#back{
+    height: 70px;
+    width: 110px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url(Screenshot\ 2023-11-23\ 172938.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 38px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 8px;
+    font-family: Calibri;
+}
+
+#levelnumber{
+    height: 80px;
+    width: 120px;
+    margin-left: 45%;
+    margin-top: -65px;
+    color: rgb(181, 43, 153);
+    /* border: 1px solid white; */
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: Calibri;
+}
+#dragdot{
+    height: 70px;
+    margin-left: 530px;
+    color:  rgb(181, 43, 153);
+    /* border: 1px solid white; */
+    text-align: center;
+    justify-content: center;
+    font-family: Calibri;
+    margin-top: 30px;
+    width: 250px;
+    font-size: 24px;
+}
+
+#keyboardarrowright{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 1000px;
+    background-image: url(Screenshot\ 2023-11-23\ 172938.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+.cosmos-container {
+    display: flex;
+    z-index: 10;
+    margin: 113px 181px;
+    position: absolute;
+}
+
+.planet {
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff;
+    border-radius: 4%;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+
+.planet:hover {
+    transform: scale(1.2);
+}
+
+
+/* Add the following styles to highlight correct and wrong clicks */
+
+.planet.correct {
+    background-color: #ffa2d7; /* Green color for correct clicks */
+}
+
+.planet.wrong {
+    background-color: #ff1900; /* Red color for wrong clicks */
+}

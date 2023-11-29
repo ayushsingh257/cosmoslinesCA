@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:rgb(48, 42, 42); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#BossElement{
+    height: 680px;
+    width: 1400px;
+    background-image: url("firstimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+#cllogo{
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 70px;
+    color: rgb(175, 175, 175);
+    margin-top: 300px;
+    margin-left: 28%;
+
+}
+#username{
+    height: 150px;
+    width: 500px;
+    margin-top: 100px;
+    background-image: url(Screenshot\ 2023-11-23\ 172938.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+    margin-left: 180px;
+    display: flex;
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: row;
+    
+
+}
+#userdetail{
+    height: 35px;
+    width: 200px;
+    margin-top: 5px;
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family: Calibri;
+    color: rgb(181, 43, 153);
+    margin-left: 150px;
+    border-radius: 10px;
+    /* border: 1px solid red; */
+
+}
+#username1{
+    margin-top: 50px;
+    margin-left: 10px;
+    position: absolute;
+    font-size: 30px;
+    /* border: 1px solid green; */
+    /* background-color: white; */
+    border-radius: 10px;
+}
+#nickname{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 10px;
+    font-size: 30px;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+}
+#typetext1{
+    position: absolute;
+    margin-top: 50px;
+    width: 220px;
+    margin-left: 160px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    /* border: 1px solid green; */
+}
+#typetext2{
+    position: absolute;
+    margin-top: 100px;
+    width: 220px;
+    margin-left: 160px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    /* border: 1px solid red; */
+}
+#buttondone{
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    background-image: url(Screenshot\ 2023-11-23\ 172938.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 400px;
+    font-size: 20px;
+}
+
+#playbutton{
+    height: 80px;
+    width: 180px;
+    margin-top: 40px;
+    margin-left: 180px;
+    border-radius: 10px;
+    font-family: Calibri;
+    font-size: 30px;
+    color: black;
+    background-image: url(Screenshot\ 2023-11-23\ 172938.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#settingbutton{
+    height: 80px;
+    width: 180px;
+    margin-top: 30px;
+    margin-left: 180px;
+    border-radius: 10px;
+    font-family: Calibri;
+    font-size: 30px;
+    color: black;
+    background-image: url(Screenshot\ 2023-11-23\ 172938.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#quitbutton{
+    height: 80px;
+    width: 180px;
+    margin-top: 30px;
+    margin-left: 180px;
+    border-radius: 10px;
+    font-family: Calibri;
+    font-size: 30px;
+    color: black;
+    background-image: url(Screenshot\ 2023-11-23\ 172938.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#version{
+    height: 20px;
+    width: 100px;
+    margin-top: 40px;
+    background-image: url(Screenshot\ 2023-11-23\ 172938.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    margin-left: 10px;
+    font-family: Calibri;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
+
+#Madeby{
+    height: 20px;
+    width: 200px;
+    margin-top: 20px;
+    background-image: url(Screenshot\ 2023-11-23\ 172938.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    margin-left: 10px;
+    font-family: Calibri;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
+#instructionpage{
+    height: 495px;
+    width: 360px;
+    position: absolute;
+    border-radius: 8px;
+    background-image: url(Screenshot\ 2023-11-23\ 172938.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 92px 910px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+}

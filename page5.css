@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:rgb(48, 42, 42); 
+    display: flex;
+    justify-content: center;
+
+}
+#BossElement{
+    height: 680px;
+    width: 1350px;
+    background-image: url("secondimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+
+#score{
+    width: 200px;
+    height: 60px;
+    background-image: url(Screenshot\ 2023-11-23\ 172938.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    position: absolute;
+    margin-top: 36px;
+    margin-left: 36%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-family: Calibri;
+
+
+}
+
+#parent{
+    /* border: 1px solid red; */
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+#backbutton{
+    height: 70px;
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 8px;
+    background-image: url(Screenshot\ 2023-11-23\ 172938.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#back{
+    height: 70px;
+    width: 110px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url(Screenshot\ 2023-11-23\ 172938.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 38px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 8px;
+    font-family: Calibri;
+}
+
+#score20{
+    height: 180px;
+    width: 500px;
+    /* border: 1px solid red; */
+    position: absolute;
+    border-radius: 12px;
+    font-family: Calibri;
+    font-size: 45px;
+    color:  black;
+    margin-top: 10%;
+    margin-left: 28%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url(Screenshot\ 2023-11-23\ 172938.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}

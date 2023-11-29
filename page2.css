@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:rgb(48, 42, 42); 
+    display: flex;
+    justify-content: center;
+
+}
+#BossElement{
+    height: 680px;
+    width: 1350px;
+    background-image: url("secondimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+#backtohomescreen{
+    height: 70px;
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 8px;
+    background-image: url(Screenshot\ 2023-11-23\ 172938.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#back{
+    height: 70px;
+    width: 110px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url(Screenshot\ 2023-11-23\ 172938.png);
+    font-size: 38px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 8px;
+    font-family: Calibri;
+}
+#parent{
+    /* border: 1px solid red; */
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+}
+#division1{
+    border: 1px solid orange;
+    height: 600px;
+    width: 350px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+
+}
+#div-music-button{
+    background-image:  url(Screenshot\ 2023-11-23\ 172938.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+    width: 330px;
+    height: 90px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 255px;
+    margin-left: 460px;
+}
+
+#music-button{
+    background-image:  url(Screenshot\ 2023-11-23\ 172938.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 14px;
+    font-size: 40px;
+    margin-top: 18px;
+
+}
+
+
